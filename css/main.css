@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #e8e6e6;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:active {
+  color: #000;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0px 10px;
+}
+
+h1 {
+  margin: 0px;
+  font-size: 50px;
+}
+
+.mainDiv {
+  width: 80%;
+  margin: auto;
+}
+
+.inputs {
+  width: 400px;
+}
+
+#input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  -webkit-appearance: none;
+  border: 1px solid #afafaf;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.userinfo-container,
+.repoinfo-container {
+  width: 30%;
+  margin: 15px 15px 15px 0px;
+  background: white;
+  padding: 10px;
+  border: 1px solid #d1d1d1;
+  border-radius: 10px;
+}
+
+.userinfo-container:nth-child(3n),
+.repoinfo-container:nth-child(3n) {
+  margin-right: 0px;
+}
+
+.userinfo-container a,
+.repoinfo-container a {
+  display: block;
+}
+
+.inner-info>p {
+  text-align: center;
+  font-size: 20px;
+}
+
+.inner-info>img {
+  width: 100%;
+}
+
